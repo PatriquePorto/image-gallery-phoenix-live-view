@@ -1,0 +1,42 @@
+<div class="container">
+
+    <div class="title flex justify-center">
+        <h1 class="text-bold text-red-600">Image Gallery</h1>
+    </div>
+
+
+    <div class="flex flex-row justify-center gap-2 mt-5">
+        <%= for id <- Gallery.image_ids() do %>
+            <img src={ Gallery.thumb_url(id) } alt=""
+            class={ thumb_css_class(id, @current_id) }>
+             
+        <% end %>
+     </div>
+     
+
+    <img class="img flex justify-center mt-4" src={ Gallery.large_url(@current_id) }>
+
+    <div class="button">
+          <button phx-click="prev" class="bg-blue-500 hover:bg-blue-700 text-white  mt-4 font-bold py-2 px-4 rounded">
+                Prev
+          </button>
+          <button phx-click="next" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Next
+          </button>
+
+          <%= if @slideshow == :stopped do %>
+          <button phx-click="play_slideshow" class="bg-blue-500 hover:bg-blue-700 text-white  mt-4 font-bold py-2 px-4 rounded">
+            Play Slide
+          </button>
+        <% else %>
+           <button phx-click="stop_slideshow" class="bg-blue-500 hover:bg-blue-700 text-white  mt-4 font-bold py-2 px-4 rounded">
+            Stop Slide
+          </button>
+          <% end %>
+    </div>
+
+   
+
+</div>
+    
+
