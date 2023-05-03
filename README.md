@@ -1,4 +1,4 @@
-# Petal Stack Default!
+# Image gallery with phoenix live view, no Javascript!
 
 To start your Phoenix server:
 
