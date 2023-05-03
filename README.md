@@ -1,5 +1,8 @@
 # Image gallery with phoenix live view, no Javascript!
 
+
+[![asciicast](https://asciinema.org/a/113463.png)](https://asciinema.org/a/113463)
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
