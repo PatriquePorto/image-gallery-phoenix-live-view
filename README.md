@@ -3,7 +3,7 @@
 [Image Gallery](https://user-images.githubusercontent.com/16324526/236055723-ec6a6f88-f766-4546-91f2-264079a1f0b9.webm)
 
 To start your Phoenix server:
-
+  * Install dependencies in: cd assets -> npm install
   * Install dependencies with `mix deps.get`
   * Create and migrate your database with `mix ecto.setup`
   * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
