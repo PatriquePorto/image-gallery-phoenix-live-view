@@ -1,6 +1,6 @@
 # Image gallery with phoenix live view, no Javascript!
 
-[Untitled  Apr 27, 2023 4 50 PM.webm](https://user-images.githubusercontent.com/16324526/236055723-ec6a6f88-f766-4546-91f2-264079a1f0b9.webm)
+[Image Gallery](https://user-images.githubusercontent.com/16324526/236055723-ec6a6f88-f766-4546-91f2-264079a1f0b9.webm)
 
 To start your Phoenix server:
 
