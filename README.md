@@ -1,4 +1,4 @@
-# Image gallery with phoenix live view, no Javascript!
+# Image gallery with Phoenix live view!
 
 [Image Gallery](https://user-images.githubusercontent.com/16324526/236055723-ec6a6f88-f766-4546-91f2-264079a1f0b9.webm)
 
